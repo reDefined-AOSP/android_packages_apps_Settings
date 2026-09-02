@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/gamespoof_title">
+
+    <SwitchPreference
+        android:key="spoof_gameprops_config"
+        android:title="@string/gamespoof_enable_title"
+        android:defaultValue="true" />
+
+</PreferenceScreen>

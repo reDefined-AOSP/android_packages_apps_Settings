@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/search_app_list_menu"
+        android:title="@string/search_settings"
+        android:icon="@drawable/ic_find_in_page_24px"
+        android:showAsAction="always|collapseActionView"
+        android:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/show_system"
+        android:title="@string/menu_show_system"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/hide_system"
+        android:title="@string/menu_hide_system"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/menu_select_all"
+        android:title="@string/select_all"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/menu_auto_select"
+        android:title="@string/auto_select"
+        android:showAsAction="never" />
+</menu>

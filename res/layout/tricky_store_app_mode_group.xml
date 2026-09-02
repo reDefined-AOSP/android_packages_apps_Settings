@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mode_group"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="horizontal"
+    android:background="@drawable/ts_segmented_group_bg"
+    android:padding="2dp">
+
+    <RadioButton
+        android:id="@+id/mode_auto"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ts_segmented_btn_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/ts_mode_auto"
+        android:textColor="@color/ts_segmented_btn_text"
+        android:textSize="13sp" />
+
+    <RadioButton
+        android:id="@+id/mode_leaf"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ts_segmented_btn_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/ts_mode_leaf"
+        android:textColor="@color/ts_segmented_btn_text"
+        android:textSize="13sp" />
+
+    <RadioButton
+        android:id="@+id/mode_cert"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ts_segmented_btn_bg"
+        android:button="@null"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/ts_mode_cert"
+        android:textColor="@color/ts_segmented_btn_text"
+        android:textSize="13sp" />
+</RadioGroup>

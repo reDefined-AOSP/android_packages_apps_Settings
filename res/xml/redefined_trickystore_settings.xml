@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/trickystore_title">
+
+    <SwitchPreference
+        android:key="spoof_trickystore_config"
+        android:title="@string/trickystore_enable_title"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
