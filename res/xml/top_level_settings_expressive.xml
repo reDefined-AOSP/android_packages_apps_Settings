@@ -21,6 +21,17 @@
     android:key="top_level_settings">
 
     <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:order="-150"
+        android:key="top_level_redefined_category">
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.android.settings.redefined.RedefinedSettingsFragment"
+            android:icon="@drawable/ic_homepage_system_dashboard"
+            android:key="top_level_redefined"
+            android:title="@string/redefined_settings_title"
+            android:summary="@string/redefined_settings_summary"/>
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
+
+    <com.android.settingslib.widget.UntitledPreferenceCategory
         android:order="-130"
         android:key="top_level_connectivity_category">
         <com.android.settings.widget.HomepagePreference
